@@ -4,8 +4,8 @@ import {DiCodeigniter} from "react-icons/di";
 import {GiCommercialAirplane} from "react-icons/gi";
 import {FaMobileAlt} from "react-icons/fa";
 // import myImage from '/Users/manavmaharana/Documents/GitHub/portfolio-website/src/assets/images/DikshaCartoon.jpg';
-import carousel1 from '/Users/manavmaharana/Documents/GitHub/portfolio-website/src/assets/images/Carousel1.jpg';
-import carousel2 from '/Users/manavmaharana/Documents/GitHub/portfolio-website/src/assets/images/Carousel2.jpg';
+import carousel1 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/Carousel1.jpg';
+import carousel2 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/Carousel2.jpg';
 //import carousel3 from '/Users/manavmaharana/Documents/GitHub/portfolio-website/src/assets/images/Carousel3.jpg';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import carousel styles
