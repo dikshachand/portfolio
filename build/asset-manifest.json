@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.708ef4d8.css",
+    "main.js": "/portfolio/static/js/main.e20cefe9.js",
+    "static/media/Carousel1.jpg": "/portfolio/static/media/Carousel1.9ebc9df81364ff42bab1.jpg",
+    "static/media/Carousel2.jpg": "/portfolio/static/media/Carousel2.4569d8158226b5ac59b1.jpg",
+    "static/media/lightspace.jpeg": "/portfolio/static/media/lightspace.a945676e02c19818705a.jpeg",
+    "index.html": "/portfolio/index.html",
+    "main.708ef4d8.css.map": "/portfolio/static/css/main.708ef4d8.css.map",
+    "main.e20cefe9.js.map": "/portfolio/static/js/main.e20cefe9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.708ef4d8.css",
+    "static/js/main.e20cefe9.js"
+  ]
+}
