@@ -4,7 +4,11 @@ body {
     font-family: "Raleway", serif !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #99A799;
+    /* background-color: #99A799; */
+    background-image: url('/Users/manavmaharana/Documents/GitHub/portfolio-website/src/assets/images/lightspace.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .about-card {

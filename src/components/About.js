@@ -8,6 +8,7 @@ const About = (props) => {
         <section id="about">
             <div className="about-card" style={{backgroundColor: "#263238"}}>
                 <div className="card-header">
+                    &nbsp;{" "}
                     <span
                         className="iconify"
                         data-icon="emojione:red-circle"

@@ -21,9 +21,11 @@ const Timeline = (props) => {
                         <strong>{item.title}</strong>
                     </h2>
                     <h4 className="vertical-timeline-element-subtitle">{item.company}</h4>
+                    <hr/>
                     <p className={"vertical-timeline-element-description"}>
                         {item.description}
                     </p>
+                    <hr/>
                         <Tags id={item.id}
                               tags={item.tags}>
                         </Tags>
