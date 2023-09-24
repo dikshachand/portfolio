@@ -1,0 +1,63 @@
+.skill-icon {
+    bottom: 0 !important;
+    color: #f5f5f5;
+    list-style-type: none;
+    horiz-align: center;
+    vertical-align: center;
+    align-items: center;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+    text-align: center;
+    background-color: rgba(38, 50, 56, 0.599);
+    margin: 2.5rem;
+    border-radius: 25px;
+}
+
+.sec-skill-icon {
+    font-size: 2em;
+    text-align: center;
+}
+
+.skills-div {
+    align-items: center;
+    text-align: center;
+}
+
+.main-skills-h1 {
+    width: 39%;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: center;
+    color: rgb(237, 237, 237);
+    background-color: rgba(38, 50, 56, 0.6);
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25), 0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+    border-radius: 10px;
+    font-size: 2.5em;
+}
+
+/* .complementary-skill-h1 {
+    width: 500px !important;
+    overflow: hidden !important;
+    vertical-align: middle!important;
+    color: rgb(38, 50, 56)!important;
+    padding: 5px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25), 0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+} */
+
+.skill-icons {
+    padding: 10px 0 10px 0;
+}
+
+.skill-icon-text {
+    margin: 0;
+    margin-top: 0.6rem;
+    font-size: 2em;
+}
