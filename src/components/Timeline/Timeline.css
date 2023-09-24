@@ -45,3 +45,7 @@
     padding: 2em 3em !important;
     background: #F6F6F6;
 }
+
+.vertical-timeline::before {
+    background-color: rgba(38, 50, 56, 0.7);
+}

@@ -71,14 +71,13 @@ const homeConfig = {
       description: "Fine-tuned large language models for custom financial data, creating an advisor chatbot capable of providing tailored investment recommendations based on user requirements through natural language input.",
       date: (<span className="date big-date">May - August 2023</span>),
       icon: <AiFillRobot />,
-      tags: ["ml", "automl", "python", "docker", "redshift", "superset"]
+      tags: ["OpenAI", "LLMs", "Python", "redshift"]
     },
     {
       id: "work-3",
       title: "Data Analyst Intern",
       company: "AdSkate",
-      description: "Leading a team of analysts and data scientists to execute different projects, " +
-        "including the construction of ETLs, data lakes, data warehouses, and machine learning models.",
+      description: "Spearheaded the development of a creative analysis platform, collating digital marketing and SEO related data from diverse B2B companies to run computer vision models leasing to strategic tailored marketing approaches.",
       date: (<span className="date big-date">May - August 2023</span>),
       icon: <BsClipboardDataFill />,
       tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"]
@@ -87,7 +86,7 @@ const homeConfig = {
       id: "work-2",
       title: "Software Development Engineer",
       company: "Persistent Systems",
-      description: "Designed, implemented, and managed as the Team Lead, a web-based online test-taking platform, using .NET Core, backed by relational database in SQL Server, delivering a smooth exam-taking experience for students during COVID lockdown.",
+      description: "Designed, implemented, and managed as the Team Lead, an online test-taking platform, using .NET Core, backed by relational database in SQL Server, delivering a smooth experience for students during COVID lockdown.",
       date: (<span className="date big-date">May 2021 - July 2022</span>),
       icon: <MdDeveloperMode />,
       tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"]
@@ -99,13 +98,13 @@ const homeConfig = {
       description: "Developed a web-app using Angular – an interactive trading platform for retail stakeholders, additionally displaying currency history charts, and real-time forex rates, live news, watchlist etc. through REST API connections.",
       date: (<span className="date big-date">May - June 2020</span>),
       icon: <MdDeveloperMode />,
-      tags: ["ml", "mssql", "python", "docker", "pbi", "azure"]
+      tags: ["ml", "openAI", "python", "docker", "pbi", "azure"]
     },
     {
       id: "work-0",
       title: "Data Scientist",
       company: "Almira Collection",
-      description: "Built a scalable, plug-and-play Operations Management System that supports a dashboard for data visualization and reporting analytical insights and quantitative analytics by optimizing inventory, customer purchase records, and business finances.",
+      description: "Built a scalable, plug-and-play Operations Management System that delivers data visualization, analytical reporting, and quantitative insights by optimizing inventory, customer purchase records, and finance management.",
       date: (<span className="date big-date">September - December 2019</span>),
       icon: <BsDatabaseFillGear />,
       tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"]

@@ -1,12 +1,11 @@
 import React from "react";
 
 import {
-    //AiFillCode,
+    AiFillCode,
     AiFillHome,
     //AiOutlineGithub
 } from "react-icons/ai";
-
-// import {BsMedium} from "react-icons/bs";
+import {BsMedium} from "react-icons/bs";
 
 
 const menuConfig = {
@@ -18,7 +17,7 @@ const menuConfig = {
             path: "/portfolio",
             icon: <AiFillHome size={35}/>,
             className: "nav-text"
-        }
+        },
         // {
         //     id: "menu-1",
         //     title: "Projects",
@@ -33,13 +32,13 @@ const menuConfig = {
         //     icon: <BsMedium size={35}/>,
         //     className: "nav-text"
         // },
-        // {
-        //     id: "menu-3",
-        //     title: "Skills",
-        //     path: "/skills",
-        //     icon: <AiFillCode size={35}/>,
-        //     className: "nav-text"
-        // }
+        {
+            id: "menu-3",
+            title: "Skills",
+            path: "/skills",
+            icon: <AiFillCode size={35}/>,
+            className: "nav-text"
+        }
     ]
 
 }
