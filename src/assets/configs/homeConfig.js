@@ -1,12 +1,9 @@
 import React from 'react'
-//import {BsClipboardData} from "react-icons/bs";
 import {DiCodeigniter} from "react-icons/di";
 import {GiCommercialAirplane} from "react-icons/gi";
 import {FaMobileAlt} from "react-icons/fa";
-// import myImage from '/Users/manavmaharana/Documents/GitHub/portfolio-website/src/assets/images/DikshaCartoon.jpg';
 import carousel1 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/Carousel1.jpg';
 import carousel2 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/Carousel2.jpg';
-//import carousel3 from '/Users/manavmaharana/Documents/GitHub/portfolio-website/src/assets/images/Carousel3.jpg';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import carousel styles
 
@@ -14,11 +11,6 @@ const imageUrls = [
   carousel1,
   carousel2
 ];
-
-// function formatDate(dateString) {
-//     const options = { year: 'numeric', month: 'long'};
-//     return new Date(dateString).toLocaleDateString(undefined, options);
-//   }
 
 const homeConfig = {
     greeting: (
@@ -31,15 +23,17 @@ const homeConfig = {
         src={myImage}
         alt="A person reading a book"
         style={{ maxWidth: '25%', height: 'auto' }}/> */}
+        <div style={{ maxWidth: '500px', margin: '0 auto' }}>
       <Carousel autoPlay={2000} infiniteLoop={true} transitionEffect="scroll" showThumbs={false}>
                 {imageUrls.map((imageUrl, index) => (
                   <div key={index}>
                     <img src={imageUrl} alt={`${index}`} 
-                    style={{width: '1000px', height: '600px' }}
+                    style={{maxWidth: '100%', height: 'auto'}}
                     />
                   </div>
                 ))}
         </Carousel>
+        </div>
       </div>
     ),
     titles: [
