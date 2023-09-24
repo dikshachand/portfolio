@@ -3,8 +3,8 @@ import { AiFillRobot } from "react-icons/ai"
 import { BsClipboardDataFill } from "react-icons/bs"
 import { MdDeveloperMode } from "react-icons/md"
 import { BsDatabaseFillGear } from "react-icons/bs"
-import carousel1 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/1.png';
-import carousel2 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/2.png';
+import carousel1 from '../images/1.png';
+import carousel2 from '../images/2.png';
 import carousel3 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/3.png';
 import carousel4 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/4.png';
 import carousel5 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/5.png';
