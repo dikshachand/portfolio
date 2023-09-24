@@ -3,18 +3,20 @@ import { AiFillRobot } from "react-icons/ai"
 import { BsClipboardDataFill } from "react-icons/bs"
 import { MdDeveloperMode } from "react-icons/md"
 import { BsDatabaseFillGear } from "react-icons/bs"
-import carousel1 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/Carousel1.jpg';
-import carousel2 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/Carousel2.jpg';
-import carousel3 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/Carousel3.jpg';
-import carousel4 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/Carousel4.jpg';
+import carousel1 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/1.png';
+import carousel2 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/2.png';
+import carousel3 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/3.png';
+import carousel4 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/4.png';
+import carousel5 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/5.png';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const imageUrls = [
-  carousel4,
   carousel3,
   carousel1,
+  carousel4,
   carousel2,
+  carousel5
 ];
 
 const homeConfig = {
