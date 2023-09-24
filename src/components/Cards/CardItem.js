@@ -1,5 +1,5 @@
 import React from 'react'
-import CardIcons from "./CardIcons";
+// import CardIcons from "./CardIcons";
 import "./CardItem.css"
 
 const CardItem = (props) => {
@@ -15,9 +15,10 @@ const CardItem = (props) => {
             </a>
             <div className={"card__body"}>
                 <h2 className={"card__title"}><strong>{props.item.title}</strong></h2>
+                <br />
                 <p className={"card__description"}>{props.item.description}</p>
-                <hr className={"card__line"}/>
-                <CardIcons item={props.item}/>
+                {/* <hr className={"card__line"}/> */}
+                {/* <CardIcons item={props.item}/> */}
             </div>
         </div>
 

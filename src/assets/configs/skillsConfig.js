@@ -1,22 +1,20 @@
 import {
     SiPython,
-    SiPostgresql,
-    SiMicrosoftsqlserver,
     SiDocker,
     SiMicrosoftazure,
-    SiRedis,
     SiReact,
     SiJavascript,
     SiCss3,
     SiHtml5,
     SiWindowsterminal,
     SiSnowflake,
-    SiApacheairflow,
-    SiApachekafka,
-    SiPowerbi
+    SiPowerbi,
+    SiScikitlearn
 } from "react-icons/si";
-import {GrMysql} from "react-icons/gr";
 import {FaGitAlt} from "react-icons/fa";
+import {AiOutlineConsoleSql} from "react-icons/ai";
+import {BiLogoJava} from "react-icons/bi";
+import {RiOpenaiFill} from "react-icons/ri";
 
 import React from "react";
 
@@ -31,20 +29,20 @@ const skillsConfig = {
         {
             id: "skills-1",
             className: "skill-icon",
-            icon: <SiPostgresql size={50}/>,
-            text: "Postgres"
+            icon: <AiOutlineConsoleSql size={50}/>,
+            text: "SQL"
         },
         {
             id: "skills-2",
             className: "skill-icon",
-            icon: <SiMicrosoftsqlserver size={50}/>,
-            text: "MSSQL"
+            icon: <BiLogoJava size={50}/>,
+            text: "Java"
         },
         {
             id: "skills-3",
             className: "skill-icon",
-            icon: <SiDocker size={50}/>,
-            text: "Docker"
+            icon: <RiOpenaiFill size={50}/>,
+            text: "OpenAI"
         },
         {
             id: "skills-4",
@@ -63,14 +61,20 @@ const skillsConfig = {
         {
             id: "skills-5",
             className: "skill-icon",
-            icon: <GrMysql size={50}/>,
-            text: "MySQL"
+            icon: <SiDocker size={50}/>,
+            text: "Docker"
+        },
+        {
+            id: "skills-15",
+            className: "skill-icon",
+            icon: <SiPowerbi size={50}/>,
+            text: "Power BI"
         },
         {
             id: "skills-6",
             className: "skill-icon",
-            icon: <SiRedis size={50}/>,
-            text: "Redis"
+            icon: <SiScikitlearn size={50}/>,
+            text: "SciKit-Learn"
         },
         {
             id: "skills-7",
@@ -85,10 +89,10 @@ const skillsConfig = {
             text: "Snowflake"
         },
         {
-            id: "skills-9",
+            id: "skills-13",
             className: "skill-icon",
-            icon: <SiApacheairflow size={50}/>,
-            text: "Airflow"
+            icon: <SiReact size={50}/>,
+            text: "React"
         },
         {
             id: "skills-10",
@@ -108,26 +112,6 @@ const skillsConfig = {
             icon: <SiHtml5 size={50}/>,
             text: "HTML 5"
         },
-        {
-            id: "skills-13",
-            className: "skill-icon",
-            icon: <SiReact size={50}/>,
-            text: "React"
-        }
-        ,
-        {
-            id: "skills-14",
-            className: "skill-icon",
-            icon: <SiApachekafka size={50}/>,
-            text: "Kafka"
-        }
-        ,
-        {
-            id: "skills-15",
-            className: "skill-icon",
-            icon: <SiPowerbi size={50}/>,
-            text: "Power BI"
-        }
     ]
 }
 
