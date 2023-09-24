@@ -35,7 +35,7 @@ const homeConfig = {
                 {imageUrls.map((imageUrl, index) => (
                   <div key={index}>
                     <img src={imageUrl} alt={`${index}`} 
-                    style={{width: '25%', height: 'auto' }}
+                    style={{width: '40%', height: 'auto' }}
                     />
                   </div>
                 ))}
