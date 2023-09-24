@@ -1,103 +1,116 @@
 import React from 'react'
-import {DiCodeigniter} from "react-icons/di";
-import {GiCommercialAirplane} from "react-icons/gi";
-import {FaMobileAlt} from "react-icons/fa";
+import { AiFillRobot } from "react-icons/ai"
+import { BsClipboardDataFill } from "react-icons/bs"
+import { MdDeveloperMode } from "react-icons/md"
+import { BsDatabaseFillGear } from "react-icons/bs"
 import carousel1 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/Carousel1.jpg';
 import carousel2 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/Carousel2.jpg';
+import carousel3 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/Carousel3.jpg';
+import carousel4 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/Carousel4.jpg';
+import carousel5 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/Carousel2.jpg';
 import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import carousel styles
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const imageUrls = [
+  carousel4,
+  carousel3,
   carousel1,
-  carousel2
+  carousel2,
 ];
 
 const homeConfig = {
-    greeting: (
-      <div style={{ textAlign: 'center'}}> 
+  greeting: (
+    <div style={{ textAlign: 'center' }}>
       <div><h1 className="heading" style={{ textAlign: 'center', maxWidth: '600px', margin: '20px auto' }}>
-           <strong className="main-name">Hi! I'm Diksha Chand</strong>
-        </h1>
-        </div>
-        {/* <img
-        src={myImage}
-        alt="A person reading a book"
-        style={{ maxWidth: '25%', height: 'auto' }}/> */}
-        <div style={{ maxWidth: '500px', margin: '0 auto' }}>
-      <Carousel autoPlay={2000} infiniteLoop={true} transitionEffect="scroll" showThumbs={false}>
-                {imageUrls.map((imageUrl, index) => (
-                  <div key={index}>
-                    <img src={imageUrl} alt={`${index}`} 
-                    style={{maxWidth: '100%', height: 'auto'}}
-                    />
-                  </div>
-                ))}
+        <strong className="main-name">Hi! I'm Diksha Chand</strong>
+      </h1>
+      </div>
+      <div style={{ maxWidth: '500px', margin: '0 auto' }}>
+        <Carousel autoPlay={2000} infiniteLoop={true} transitionEffect="scroll" showThumbs={false}>
+          {imageUrls.map((imageUrl, index) => (
+            <div key={index}>
+              <img src={imageUrl} alt={`${index}`}
+                style={{ maxWidth: '100%', height: 'auto' }}
+              />
+            </div>
+          ))}
         </Carousel>
-        </div>
+      </div>
+    </div>
+  ),
+  titles: [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Data Analyst",
+    "Software Developer",
+    "Lifelong Un-Learner"
+  ],
+  about: {
+    start: (
+      <div className="about-text">
+        I'm all about tech, data, and the <strong>thrill of making things happen.</strong> ⚡️<br />
+        <br />
+        I kicked off my technology journey in India majoring in Computer Science Engineering. Fast forward to<br /><strong>Carnegie Mellon University</strong> where I'm currently pursuing my Master's in Information Systems Management.<br />
+        <br />
+        I'm like a <strong>Swiss Army knife</strong> when it comes to coding - Python, Java, SQL, you name it. I geek out over libraries like SciKit-Learn.<br />
+        <br />
+        I've worn different hats in the professional world. As an AI/ML Intern at NodeStar LLC, I made a smart <strong>chatbot for financial advice.</strong> At AdSkate Inc., I used computer vision to supercharge marketing. And there's more, scroll below!
       </div>
     ),
-    titles: [
-      "Data Scientist",
-      "Data Analyst",
-      "Machine Learning Engineer",
-      "Software Developer",
-      "Life Long Learner"
-    ],
-    about: {
-        start: "I've been working for over six years on data science projects. " +
-            "I'm excited by learning new things, contributing to the data science community," +
-            " and spreading the word of data!",
-        exit: "I'm fluent at Python, SQL databases, BI tools, and more, " +
-            "with a deep interest in machine learning."
+    exit: (
+      <div className="about-text">
+        When I'm not buried in code, I'm all about hiking the Pittsburgh trails, <strong>rediscovering Bollywood songs</strong>, and diving into literature.
+      </div>
+    )
+  },
+  workTimeline: [
+    {
+      id: "work-4",
+      title: "AI/ML Intern",
+      company: "NodeStar",
+      description: "Fine-tuned large language models for custom financial data, creating an advisor chatbot capable of providing tailored investment recommendations based on user requirements through natural language input.",
+      date: (<span className="date big-date">May - August 2023</span>),
+      icon: <AiFillRobot />,
+      tags: ["ml", "automl", "python", "docker", "redshift", "superset"]
     },
-    workTimeline: [
-        {
-            id: "work-4",
-            title: "AI/ML Intern",
-            company: "NodeStar",
-            description: "Fine-tuned large language models for custom financial data, creating an advisor expert chatbot capable of providing tailored strategic recommendations based on user requirements.",
-            date: (<span className="date big-date">May - August 2023</span>),
-            icon: <DiCodeigniter/>,
-            tags: ["ml", "automl", "python", "docker", "redshift", "superset"]
-        },
-        {
-            id: "work-3",
-            title: "Data Analyst Intern",
-            company: "AdSkate",
-            description: "Leading a team of analysts and data scientists to execute different projects, " +
-                "including the construction of ETLs, data lakes, data warehouses, and machine learning models.",
-            date: (<span className="date big-date">May - August 2023</span>),
-            icon: <FaMobileAlt/>,
-            tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"]
-        },
-        {
-            id: "work-2",
-            title: "Software Development Engineer",
-            company: "Persistent Systems",
-            description: "Designed, implemented, and managed as the Team Lead, a web-based online test-taking platform, using .NET Core, backed by relational database in SQL Server, delivering a smooth exam-taking experience for students during COVID lockdown.",
-            date: (<span className="date big-date">May 2021 - July 2022</span>),
-            icon: <FaMobileAlt/>,
-            tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"]
-        },
-        {
-            id: "work-1",
-            title: "Web Development Intern",
-            company: "FinIQ",
-            description: "Developed a web-app using Angular – an interactive trading platform for retail stakeholders, additionally displaying currency history charts, and real-time forex rates, live news, watchlist etc. through REST API connections.",
-            date: (<span className="date big-date">May - June 2020</span>),
-            icon: <GiCommercialAirplane/>,
-            tags: ["ml", "mssql", "python", "docker", "pbi", "azure"]
-        },
-        {
-            id: "work-0",
-            title: "Data Scientist",
-            company: "Almira Collection",
-            description: "Built a scalable, plug-and-play Operations Management System that supports a dashboard for data visualization and reporting analytical insights and quantitative analytics by optimizing inventory, customer purchase records, and business finances.",
-            date: (<span className="date big-date">September - December 2019</span>),
-            icon: <FaMobileAlt/>,
-            tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"]
-        }
-    ]
+    {
+      id: "work-3",
+      title: "Data Analyst Intern",
+      company: "AdSkate",
+      description: "Leading a team of analysts and data scientists to execute different projects, " +
+        "including the construction of ETLs, data lakes, data warehouses, and machine learning models.",
+      date: (<span className="date big-date">May - August 2023</span>),
+      icon: <BsClipboardDataFill />,
+      tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"]
+    },
+    {
+      id: "work-2",
+      title: "Software Development Engineer",
+      company: "Persistent Systems",
+      description: "Designed, implemented, and managed as the Team Lead, a web-based online test-taking platform, using .NET Core, backed by relational database in SQL Server, delivering a smooth exam-taking experience for students during COVID lockdown.",
+      date: (<span className="date big-date">May 2021 - July 2022</span>),
+      icon: <MdDeveloperMode />,
+      tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"]
+    },
+    {
+      id: "work-1",
+      title: "Web Development Intern",
+      company: "FinIQ",
+      description: "Developed a web-app using Angular – an interactive trading platform for retail stakeholders, additionally displaying currency history charts, and real-time forex rates, live news, watchlist etc. through REST API connections.",
+      date: (<span className="date big-date">May - June 2020</span>),
+      icon: <MdDeveloperMode />,
+      tags: ["ml", "mssql", "python", "docker", "pbi", "azure"]
+    },
+    {
+      id: "work-0",
+      title: "Data Scientist",
+      company: "Almira Collection",
+      description: "Built a scalable, plug-and-play Operations Management System that supports a dashboard for data visualization and reporting analytical insights and quantitative analytics by optimizing inventory, customer purchase records, and business finances.",
+      date: (<span className="date big-date">September - December 2019</span>),
+      icon: <BsDatabaseFillGear />,
+      tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"]
+    }
+  ]
 }
 
 
