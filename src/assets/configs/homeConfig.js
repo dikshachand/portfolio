@@ -7,7 +7,6 @@ import carousel1 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/as
 import carousel2 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/Carousel2.jpg';
 import carousel3 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/Carousel3.jpg';
 import carousel4 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/Carousel4.jpg';
-import carousel5 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/Carousel2.jpg';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
