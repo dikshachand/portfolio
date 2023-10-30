@@ -3,18 +3,20 @@ import { AiFillRobot } from "react-icons/ai"
 import { BsClipboardDataFill } from "react-icons/bs"
 import { MdDeveloperMode } from "react-icons/md"
 import { BsDatabaseFillGear } from "react-icons/bs"
-import carousel1 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/Carousel1.jpg';
-import carousel2 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/Carousel2.jpg';
-import carousel3 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/Carousel3.jpg';
-import carousel4 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/Carousel4.jpg';
+import carousel1 from '../images/1.png';
+import carousel2 from '../images/2.png';
+import carousel3 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/3.png';
+import carousel4 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/4.png';
+import carousel5 from '/Users/manavmaharana/Documents/GitHub/dc-portfolio/src/assets/images/5.png';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const imageUrls = [
-  carousel4,
   carousel3,
   carousel1,
+  carousel4,
   carousel2,
+  carousel5
 ];
 
 const homeConfig = {
@@ -38,11 +40,11 @@ const homeConfig = {
     </div>
   ),
   titles: [
+    "Lifelong Un-Learner",
+    "Software Engineer",
     "Data Scientist",
     "Machine Learning Engineer",
-    "Data Analyst",
-    "Software Developer",
-    "Lifelong Un-Learner"
+    "Data Analyst"
   ],
   about: {
     start: (
@@ -70,7 +72,7 @@ const homeConfig = {
       description: "Fine-tuned large language models for custom financial data, creating an advisor chatbot capable of providing tailored investment recommendations based on user requirements through natural language input.",
       date: (<span className="date big-date">May - August 2023</span>),
       icon: <AiFillRobot />,
-      tags: ["OpenAI", "LLMs", "Python", "redshift"]
+      tags: ["OpenAI", "LLMs", "Python", "SQL"]
     },
     {
       id: "work-3",
@@ -79,7 +81,7 @@ const homeConfig = {
       description: "Spearheaded the development of a creative analysis platform, collating digital marketing and SEO related data from diverse B2B companies to run computer vision models leasing to strategic tailored marketing approaches.",
       date: (<span className="date big-date">May - August 2023</span>),
       icon: <BsClipboardDataFill />,
-      tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"]
+      tags: ["Javascript", "Typescript", "Angular", "CSS"]
     },
     {
       id: "work-2",
@@ -88,7 +90,7 @@ const homeConfig = {
       description: "Designed, implemented, and managed as the Team Lead, an online test-taking platform, using .NET Core, backed by relational database in SQL Server, delivering a smooth experience for students during COVID lockdown.",
       date: (<span className="date big-date">May 2021 - July 2022</span>),
       icon: <MdDeveloperMode />,
-      tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"]
+      tags: [".NET", "React", "Node.js", "SQL Server"]
     },
     {
       id: "work-1",
@@ -97,7 +99,7 @@ const homeConfig = {
       description: "Developed a web-app using Angular – an interactive trading platform for retail stakeholders, additionally displaying currency history charts, and real-time forex rates, live news, watchlist etc. through REST API connections.",
       date: (<span className="date big-date">May - June 2020</span>),
       icon: <MdDeveloperMode />,
-      tags: ["ml", "openAI", "python", "docker", "pbi", "azure"]
+      tags: ["REST API", "Data Cubes", "ASP.NET", "C#"]
     },
     {
       id: "work-0",
@@ -106,7 +108,7 @@ const homeConfig = {
       description: "Built a scalable, plug-and-play Operations Management System that delivers data visualization, analytical reporting, and quantitative insights by optimizing inventory, customer purchase records, and finance management.",
       date: (<span className="date big-date">September - December 2019</span>),
       icon: <BsDatabaseFillGear />,
-      tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"]
+      tags: ["MySQL", "Python", "Tableau", "Java"]
     }
   ]
 }

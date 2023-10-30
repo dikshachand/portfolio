@@ -5,7 +5,7 @@ import {
     AiFillHome,
     //AiOutlineGithub
 } from "react-icons/ai";
-import {BsMedium} from "react-icons/bs";
+import {BsRocketTakeoff} from "react-icons/bs";
 
 
 const menuConfig = {
@@ -25,13 +25,13 @@ const menuConfig = {
         //     icon: <AiOutlineGithub size={35}/>,
         //     className: "nav-text"
         // },
-        // {
-        //     id: "menu-2",
-        //     title: "Blogs",
-        //     path: "/blogs",
-        //     icon: <BsMedium size={35}/>,
-        //     className: "nav-text"
-        // },
+        {
+            id: "menu-2",
+            title: "GHC '23",
+            path: "/blogs",
+            icon: <BsRocketTakeoff size={35}/>,
+            className: "nav-text"
+        },
         {
             id: "menu-3",
             title: "Skills",
