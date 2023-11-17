@@ -23,7 +23,7 @@ const homeConfig = {
   greeting: (
     <div style={{ textAlign: 'center' }}>
       <div><h1 className="heading" style={{ textAlign: 'center', maxWidth: '600px', margin: '20px auto' }}>
-        <strong className="main-name">Hi! I'm Diksha Chand</strong>
+        <strong className="main-name">Hey there! I'm Diksha</strong>
       </h1>
       </div>
       <div style={{ maxWidth: '500px', margin: '0 auto' }}>

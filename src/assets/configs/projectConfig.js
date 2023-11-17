@@ -1,76 +1,19 @@
 import {BiGitRepoForked} from "react-icons/bi";
 import {AiFillGithub, AiFillEye} from "react-icons/ai";
 import {ImBook} from "react-icons/im";
-
-import sklearnGenetic from "../images/sklearn_genetic_opt.png"
-import graphEmbeddings from "../images/graph_embeddings.png"
-import kafkaMl from "../images/kafkaml.png"
-import portfolio from "../images/portfolio.png"
+import azat from "../images/azat.jpg"
+import usc from "../images/uscounties.png"
+import cmu from "../images/8.png"
+// import graphEmbeddings from "../images/graph_embeddings.png"
+// import kafkaMl from "../images/kafkaml.png"
+// import portfolio from "../images/portfolio.png"
 
 import React from 'react'
 
 const projectConfig = [
     {
-        id: "project-5",
-        title: "Sklearn Genetic Opt",
-        links: [
-            {
-                name: "repo",
-                url: "https://github.com/rodrigo-arenas/Sklearn-genetic-opt",
-                icon: <AiFillGithub/>,
-            },
-            {
-                name: "fork",
-                url: "https://github.com/rodrigo-arenas/Sklearn-genetic-opt/fork",
-                icon: <BiGitRepoForked/>,
-            },
-            {
-                name: "subscription",
-                url: "https://github.com/rodrigo-arenas/Sklearn-genetic-opt/subscription",
-                icon: <AiFillEye/>,
-            },
-            {
-                name: "docs",
-                url: "https://sklearn-genetic-opt.readthedocs.io/en/stable/",
-                icon: <ImBook/>,
-            }
-        ],
-        image: sklearnGenetic,
-        description: "scikit-learn models hyperparameters tuning and feature selection, using evolutionary algorithms.",
-        target: "_blank"
-    },
-    {
-        id: "project-4",
-        title: "Graphs Embeddings",
-        links: [
-            {
-                name: "repo",
-                url: "https://github.com/rodrigo-arenas/Graph-Embeddings",
-                icon: <AiFillGithub/>,
-            },
-            {
-                name: "fork",
-                url: "https://github.com/rodrigo-arenas/Graph-Embeddings/fork",
-                icon: <BiGitRepoForked/>,
-            },
-            {
-                name: "subscription",
-                url: "https://github.com/rodrigo-arenas/Graph-Embeddings/subscription",
-                icon: <AiFillEye/>,
-            },
-            {
-                name: "docs",
-                url: "https://graph-embeddings.readthedocs.io/",
-                icon: <ImBook/>,
-            }
-        ],
-        image: graphEmbeddings,
-        description: "Graph embeddings for downstream tasks.",
-        target: "_blank"
-    },
-    {
         id: "project-3",
-        title: "Kafkaml Anomalies",
+        title: "Rare Disease Market — Expansion Modeling",
         links: [
             {
                 name: "repo",
@@ -88,13 +31,13 @@ const projectConfig = [
                 icon: <AiFillEye/>
             }
         ],
-        image: kafkaMl,
-        description: "Project for real-time anomaly detection using kafka and python.",
+        image: azat,
+        description: "Student consultant with AT Kearney and Alexion to conduct in-depth research on hyper-rare disease data to discern market expansion factors and accurately forecast growth, employing time series forecasting to predict market expansion. Conducted a comprehensive review of published research, executed data engineering on raw datasets, and constructed a prototype predictive model.",
         target: "_blank"
     },
     {
         id: "project-2",
-        title: "Pyworkforce",
+        title: "Diabetes Insights — Language Processing",
         links: [
             {
                 name: "repo",
@@ -117,13 +60,13 @@ const projectConfig = [
                 icon: <ImBook/>,
             }
         ],
-        image: "https://miro.medium.com/max/1400/1*UDnhOFK35IbAPx15wkMgVg.jpeg",
-        description: "Standard tools for workforce management, queuing, scheduling, rostering and optimization problems.",
+        image: cmu,
+        description: "Natural Language Processing (NLP) analysis on a dataset of 37,000 social media posts related to Continuous Glucose Monitoring (CGM) for Diabetes, achieving topic classification and identifying 3 key benefits and knowledge gaps among patients. Utilized intelligent visualizations to discern popular CGM brands and extract insights on nutrition, diets, and health.",
         target: "_blank"
     },
     {
         id: "project-1",
-        title: "Portfolio Web",
+        title: "US County Health — Predictive Modeling",
         links: [
             {
                 name: "repo",
@@ -141,8 +84,8 @@ const projectConfig = [
                 icon: <AiFillEye/>
             }
         ],
-        image: portfolio,
-        description: "Source code of my current portfolio web page as data scientist.",
+        image: usc,
+        description: "Unsupervised machine learning techniques on US county health data, applying clustering and prediction methods to identify groups with similar health outcomes. Developed a predictive model for factors influencing health, highlighting the top 5 contributors to premature deaths using Principal Component Analysis, K-means clustering, Random Forest, and Lasso Regression.",
         target: "_blank"
     }
 ]

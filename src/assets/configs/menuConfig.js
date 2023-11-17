@@ -6,6 +6,7 @@ import {
     //AiOutlineGithub
 } from "react-icons/ai";
 import {BsRocketTakeoff} from "react-icons/bs";
+import { MdOutlineHealthAndSafety } from "react-icons/md";
 
 
 const menuConfig = {
@@ -18,13 +19,13 @@ const menuConfig = {
             icon: <AiFillHome size={35}/>,
             className: "nav-text"
         },
-        // {
-        //     id: "menu-1",
-        //     title: "Projects",
-        //     path: "/projects",
-        //     icon: <AiOutlineGithub size={35}/>,
-        //     className: "nav-text"
-        // },
+        {
+            id: "menu-1",
+            title: "Health-Tech",
+            path: "/projects",
+            icon: <MdOutlineHealthAndSafety size={35}/>,
+            className: "nav-text"
+        },
         {
             id: "menu-2",
             title: "GHC '23",
