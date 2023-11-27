@@ -6,7 +6,8 @@ import {
     //AiOutlineGithub
 } from "react-icons/ai";
 import {BsRocketTakeoff} from "react-icons/bs";
-import { MdOutlineHealthAndSafety } from "react-icons/md";
+// import { MdOutlineHealthAndSafety } from "react-icons/md";
+import { FaGoogle } from "react-icons/fa";
 
 
 const menuConfig = {
@@ -21,9 +22,11 @@ const menuConfig = {
         },
         {
             id: "menu-1",
-            title: "Health-Tech",
-            path: "/projects",
-            icon: <MdOutlineHealthAndSafety size={35}/>,
+            // title: "Health-Tech",
+            title: "Google",
+            path: "/google",
+            // icon: <MdOutlineHealthAndSafety size={35}/>,
+            icon: <FaGoogle size={35}/>,
             className: "nav-text"
         },
         {
