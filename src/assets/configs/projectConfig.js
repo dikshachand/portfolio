@@ -164,7 +164,7 @@ const projectConfig = [
             }
         ],
         image: eightytwenty,
-        description: "Amamzed at how Google is fostering innovation by allowing employees to dedicate a significant portion of their time to pursue passion projects. This is something that I have been practicing in my academic life as well.",
+        description: "Amazed at how Google is fostering innovation by allowing employees to dedicate a significant portion of their time to pursue passion projects. This is something that I have been practicing in my academic life as well.",
         target: "_blank"
     },
     {
